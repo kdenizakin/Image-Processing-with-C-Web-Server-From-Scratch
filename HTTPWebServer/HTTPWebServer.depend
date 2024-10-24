@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1726782440 source:/home/korhandenizakin/Documents/Alyo_Assignment/HTTPWebServer/Server.c
+	"Server.h"
+
+1726829829 /home/korhandenizakin/Documents/Alyo_Assignment/HTTPWebServer/Server.h
+	<sys/socket.h>
+	<netinet/in.h>
+	<stdlib.h>
+	<stdio.h>
+	<unistd.h>
+
+1726910995 source:/home/korhandenizakin/Documents/Alyo_Assignment/HTTPWebServer/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Server.h"
+	"Request.h"
+	"Response.h"
+
+1726938671 source:/home/korhandenizakin/Documents/Alyo_Assignment/HTTPWebServer/Request.c
+	"Request.h"
+	<string.h>
+
+1726933302 /home/korhandenizakin/Documents/Alyo_Assignment/HTTPWebServer/Request.h
+	<stdlib.h>
+	<stdio.h>
+
+1726944048 /home/korhandenizakin/Documents/Alyo_Assignment/HTTPWebServer/Response.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1726940048 source:/home/korhandenizakin/Documents/Alyo_Assignment/HTTPWebServer/Response.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"Response.h"
+	"Server.h"
+	"Request.h"
+
